@@ -1,0 +1,16 @@
+[project]
+name = "masarif"
+version = "0.1.0"
+description = "مصاريفي - تطبيق المصاريف الشخصية"
+requires-python = ">=3.10"
+dependencies = ["flet==0.28.3"]
+
+[tool.flet]
+product = "مصاريفي"
+org = "com.masarif"
+
+[tool.flet.app]
+path = "."
+
+[tool.flet.android]
+min_sdk_version = 24
